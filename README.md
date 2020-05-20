@@ -64,27 +64,27 @@ Here are some illustrations of the different stages:
 
 > After Preprocessing:
 
-![After Preprocessing]()
+![After Preprocessing](images/threshold.jpg)
 
 > Final processed Sudoku Grid
 
-![enter image description here]()
+![enter image description here](images/final.jpg)
 
 > Here are a few digits after processing the cells:
 
-![Digit 3]()
+![Digit 3](images/three.png)![Digit 8](images/eight.ping)
 
 > Here's a typical empty cell:
 
-![empty cell]()
+![empty cell](images/emptycell.png)
 
 >  Predicted Grid:
 
-![Prediction]()
+![Prediction](images/extracted_grid.png)
 
 > Solved Grid:
 
-![Solved Grid]()
+![Solved Grid](images/solved_grid.png)
 
 ----------
 Contributors
