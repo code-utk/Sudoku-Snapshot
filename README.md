@@ -72,7 +72,7 @@ Here are some illustrations of the different stages:
 
 > Here are a few digits after processing the cells:
 
-<img src="images/three.png" width=80><img src="images/eight.png" width=80>
+<img src="images/three.png" width=80><img src="images/eight.png" width=90>
 
 > Here's a typical empty cell:
 
