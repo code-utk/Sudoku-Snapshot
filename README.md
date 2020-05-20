@@ -38,4 +38,58 @@ Working:
 
 > The current code gives out the following output to the Terminal:
 
-![Input Sudoku Image](images/solved_grid.jpg)
+![Final Result](images/solved_grid.png)
+
+Algorithm
+-------------
+
+ > 1. Basic image preprocessing - **Thresholding**.
+ > 2. Crop out approx. Sudoku puzzle (Largest contour)
+ > 3. Get the grid square vertices: *(a better way of doing this is required!)* </br>
+   3.1. Get the **largest contour** of the image.</br>
+   3.2. Get the largest **bounding rectangle** within the contour.</br>
+   3.3. Compute the grid corners. 
+> 4. Do a **Warp perspective** on the sudoku image
+> 5. We will extract cells from this, by slicing the sudoku grid evenly.
+> 6. Digit isolation in cell is done through a series of steps: </br>
+    6.1. Extract the **largest connected component** in the image, giving more *priority to the center pixels*. </br>
+    6.2. Removing all major noise in the cell. 
+> 7.  Predict Digits using a Neural Network. 
+
+> The only 3rd party libraries required are  *OpenCV, Numpy*. The Neural Network created was trained with around 250 digits. The constants used in the training phase, the training data-set is in this repository itself. 
+
+
+Here are some illustrations of the different stages:
+-------
+
+> After Preprocessing:
+
+![After Preprocessing]()
+
+> Final processed Sudoku Grid
+
+![enter image description here]()
+
+> Here are a few digits after processing the cells:
+
+![Digit 3]()
+
+> Here's a typical empty cell:
+
+![empty cell]()
+
+>  Predicted Grid:
+
+![Prediction]()
+
+> Solved Grid:
+
+![Solved Grid]()
+
+----------
+Contributors
+------------------
+
+[Utkarsh Kumar](https://github.com/code-utk)
+Yatharth Nair
+Pranjal Kaushik
