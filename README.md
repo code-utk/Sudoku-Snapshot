@@ -33,7 +33,7 @@ Working:
 -------
 > Here's a Sudoku image from a smartphone:
 
-![Input Sudoku Image](images/sudoku.jpg)
+<img src"images/sudoku.jpg" width=100>
 </br>
 
 > The current code gives out the following output to the Terminal:
