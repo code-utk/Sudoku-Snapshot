@@ -33,12 +33,12 @@ Working:
 -------
 > Here's a Sudoku image from a smartphone:
 
-<img src"images/sudoku.jpg" width=100>
+<img src="images/sudoku.jpg" width=500>
 </br>
 
 > The current code gives out the following output to the Terminal:
 
-![Final Result](images/solved_grid.png)
+<img src="images/solved_grid.png" width=400>
 
 Algorithm
 -------------
@@ -72,7 +72,7 @@ Here are some illustrations of the different stages:
 
 > Here are a few digits after processing the cells:
 
-![Digit 3](images/three.png)![Digit 8](images/eight.ping)
+<img src="images/three.png" width=40><img src="images/eight.png" width=40>
 
 > Here's a typical empty cell:
 
@@ -90,6 +90,6 @@ Here are some illustrations of the different stages:
 Contributors
 ------------------
 
-[Utkarsh Kumar](https://github.com/code-utk)
-Yatharth Nair
-Pranjal Kaushik
+> [Utkarsh Kumar](https://github.com/code-utk) </br>
+> Yatharth Nair </br>
+> Pranjal Kaushik </br>
