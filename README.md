@@ -35,3 +35,7 @@ Working:
 
 ![Input Sudoku Image](images/sudoku.jpg)
 </br>
+
+> The current code gives out the following output to the Terminal:
+
+![Input Sudoku Image](images/solved_grid.jpg)
